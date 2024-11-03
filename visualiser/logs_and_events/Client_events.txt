@@ -1,0 +1,43 @@
+{"time":1729680611226,"event":0,"id":"C1","alias":"unnamed_client","pos":{"x":300,"y":100},"matcher":0}
+{"time":1729680611226,"event":2,"id":"C1","alias":"unnamed_client","pos":{"x":300,"y":100},"matcher":0}
+{"time":1729680611226,"event":4,"id":"C1","alias":"unnamed_client","pos":{"x":300,"y":100},"matcher":1}
+{"time":1729680611241,"event":2,"id":"C1","alias":"unnamed_client","pos":{"x":300,"y":100},"matcher":2}
+{"time":1729680611241,"event":4,"id":"C1","alias":"unnamed_client","pos":{"x":300,"y":100},"matcher":2}
+{"time":1729680611447,"event":6,"id":"C1","alias":"unnamed_client","matcher":2,"sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C1","subID":"C1-bJih6","channel":"channel1","aoi":{"center":{"x":300,"y":100},"radius":100},"recipients":[],"heartbeat":1729680611440}}
+{"time":1729680611458,"event":0,"id":"C2","alias":"unnamed_client","pos":{"x":200,"y":200},"matcher":0}
+{"time":1729680611458,"event":2,"id":"C2","alias":"unnamed_client","pos":{"x":200,"y":200},"matcher":0}
+{"time":1729680611458,"event":4,"id":"C2","alias":"unnamed_client","pos":{"x":200,"y":200},"matcher":1}
+{"time":1729680611473,"event":2,"id":"C2","alias":"unnamed_client","pos":{"x":200,"y":200},"matcher":2}
+{"time":1729680611473,"event":4,"id":"C2","alias":"unnamed_client","pos":{"x":200,"y":200},"matcher":2}
+{"time":1729680611771,"event":6,"id":"C2","alias":"unnamed_client","matcher":2,"sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C2","subID":"C2-c5QE5","channel":"channel1","aoi":{"center":{"x":200,"y":200},"radius":100},"recipients":[],"heartbeat":1729680611768}}
+{"time":1729680611787,"event":0,"id":"C3","alias":"unnamed_client","pos":{"x":500,"y":200},"matcher":0}
+{"time":1729680611787,"event":2,"id":"C3","alias":"unnamed_client","pos":{"x":500,"y":200},"matcher":0}
+{"time":1729680611787,"event":4,"id":"C3","alias":"unnamed_client","pos":{"x":500,"y":200},"matcher":1}
+{"time":1729680612199,"event":6,"id":"C3","alias":"unnamed_client","matcher":1,"sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-F1a8q","channel":"channel1","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612194}}
+{"time":1729680612199,"event":6,"id":"C3","alias":"unnamed_client","matcher":1,"sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-EMsFA","channel":"channel2","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612196}}
+{"time":1729680612295,"event":9,"id":"C1","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C1-1","aoi":{"center":{"x":300,"y":100},"radius":10},"channel":"channel1","payload":"hello from C1!"}}
+{"time":1729680612301,"event":10,"id":"C1","alias":"unnamed_client","matcher":2,"pub":{"matcherID":2,"clientID":"C1","pubID":"C1-1","aoi":{"center":{"x":300,"y":100},"radius":10},"payload":"hello from C1!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612303,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C1","pubID":"C1-1","aoi":{"center":{"x":300,"y":100},"radius":10},"payload":"hello from C1!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612399,"event":9,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"channel":"channel1","payload":"C2 also says hello!"}}
+{"time":1729680612402,"event":10,"id":"C1","alias":"unnamed_client","matcher":2,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"payload":"C2 also says hello!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612403,"event":10,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"payload":"C2 also says hello!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612404,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"payload":"C2 also says hello!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612501,"event":9,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"pubID":"C3-1","aoi":{"center":{"x":250,"y":250},"radius":50},"channel":"channel1","payload":"C3 sending a message far way"}}
+{"time":1729680612506,"event":10,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"matcherID":1,"clientID":"C3","pubID":"C3-1","aoi":{"center":{"x":250,"y":250},"radius":50},"payload":"C3 sending a message far way","channel":"channel1","recipients":[2],"chain":[1,2]}}
+{"time":1729680612508,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":1,"clientID":"C3","pubID":"C3-1","aoi":{"center":{"x":250,"y":250},"radius":50},"payload":"C3 sending a message far way","channel":"channel1","recipients":[2],"chain":[1,2]}}
+{"time":1729680612605,"event":9,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C2-2","aoi":{"center":{"x":200,"y":200},"radius":5},"channel":"channel2","payload":"C2 publishing on channel2. Only C3 should receive this pub."}}
+{"time":1729680612610,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-2","aoi":{"center":{"x":200,"y":200},"radius":5},"payload":"C2 publishing on channel2. Only C3 should receive this pub.","channel":"channel2","recipients":[2],"chain":[2]}}
+{"time":1729680612707,"event":5,"id":"C1","alias":"unnamed_client","pos":{"x":350,"y":500},"oldpos":{"x":300,"y":100},"matcher":2}
+{"time":1729680612730,"event":2,"id":"C1","alias":"unnamed_client","pos":{"x":350,"y":500},"matcher":1}
+{"time":1729680612731,"event":4,"id":"C1","alias":"unnamed_client","pos":{"x":350,"y":500},"matcher":1}
+{"time":1729680613710,"event":5,"id":"C1","alias":"unnamed_client","pos":{"x":400,"y":600},"oldpos":{"x":300,"y":100},"matcher":1}
+{"time":1729680613711,"event":9,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C2-3","aoi":{"center":{"x":400,"y":600},"radius":10},"channel":"channel1","payload":"Hi to C1/C3"}}
+{"time":1729680613712,"event":9,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C2-4","aoi":{"center":{"x":200,"y":200},"radius":10},"channel":"channel1","payload":"C2/C3 hello"}}
+{"time":1729680613721,"event":10,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-4","aoi":{"center":{"x":200,"y":200},"radius":10},"payload":"C2/C3 hello","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680613724,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-3","aoi":{"center":{"x":400,"y":600},"radius":10},"payload":"Hi to C1/C3","channel":"channel1","recipients":[1],"chain":[2,1]}}
+{"time":1729680613724,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-4","aoi":{"center":{"x":200,"y":200},"radius":10},"payload":"C2/C3 hello","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680613814,"event":9,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"channel":"channel1","payload":"global hello"}}
+{"time":1729680613819,"event":10,"id":"C1","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"payload":"global hello","channel":"channel1","recipients":[1,2,3],"chain":[2,1]}}
+{"time":1729680613819,"event":10,"id":"C3","alias":"unnamed_client","matcher":1,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"payload":"global hello","channel":"channel1","recipients":[1,2,3],"chain":[2,1]}}
+{"time":1729680613821,"event":10,"id":"C2","alias":"unnamed_client","matcher":2,"pub":{"matcherID":2,"clientID":"C2","pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"payload":"global hello","channel":"channel1","recipients":[1,2,3],"chain":[2,1,2]}}
+{"time":1729680614818,"event":1,"id":"C1","alias":"unnamed_client","matcher":1}

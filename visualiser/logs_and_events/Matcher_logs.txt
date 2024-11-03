@@ -1,0 +1,118 @@
+{"time":1728941152991,"msg":"Matcher[1]: VON peer joined successfully"}
+{"time":1728941152991,"msg":"Matcher[1]: listening on 20000"}
+{"time":1728941153104,"msg":"Matcher[2]: VON peer joined successfully"}
+{"time":1728941153104,"msg":"Matcher[2]: listening on 20010"}
+{"time":1728941153109,"msg":"Matcher[3]: VON peer joined successfully"}
+{"time":1728941153109,"msg":"Matcher[3]: listening on 20020"}
+{"time":1728941153153,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1728941153154,"msg":"Matcher[1]: move client[C1] to pos[300; 100]"}
+{"time":1728941153155,"msg":"Matcher[2]: Migrate client[C1] from matcher[1] for pos[300; 100]"}
+{"time":1728941153156,"msg":"Matcher[1]: MOVE_SUBS_R message"}
+{"time":1728941153156,"msg":"Matcher[1]: migrating client[C1] to matcher[2]"}
+{"time":1728941153166,"msg":"Matcher[1] disconnected from Client[C1]. Added to leaving list."}
+{"time":1728941153171,"msg":"Matcher[2]: Client[C1] has joined from pending list"}
+{"time":1728941153368,"msg":"Matcher[2]: Received subscribe message from client[C1] with subscription ID [C1-gbAEo]"}
+{"time":1728941153369,"msg":"Matcher[2]: New Sub from Matcher[2]"}
+{"time":1728941153369,"msg":"Matcher[1]: New Sub from Matcher[2]"}
+{"time":1728941153374,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1728941153374,"msg":"Matcher[1]: move client[C2] to pos[200; 200]"}
+{"time":1728941153375,"msg":"Matcher[2]: Migrate client[C2] from matcher[1] for pos[200; 200]"}
+{"time":1728941153376,"msg":"Matcher[1]: MOVE_SUBS_R message"}
+{"time":1728941153376,"msg":"Matcher[1]: migrating client[C2] to matcher[2]"}
+{"time":1728941153382,"msg":"Matcher[1] disconnected from Client[C2]. Added to leaving list."}
+{"time":1728941153388,"msg":"Matcher[2]: Client[C2] has joined from pending list"}
+{"time":1728941153685,"msg":"Matcher[2]: Received subscribe message from client[C2] with subscription ID [C2-hWNxR]"}
+{"time":1728941153685,"msg":"Matcher[2]: New Sub from Matcher[2]"}
+{"time":1728941153690,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1728941153690,"msg":"Matcher[1]: move client[C3] to pos[500; 200]"}
+{"time":1728941154094,"msg":"Matcher[1]: Received subscribe message from client[C3] with subscription ID [C3-GgP2Z]"}
+{"time":1728941154095,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1728941154095,"msg":"Matcher[1]: Received subscribe message from client[C3] with subscription ID [C3-DkAxF]"}
+{"time":1728941154096,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1728941154096,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1728941154096,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1728941154096,"msg":"Matcher[3]: New Sub from Matcher[1]"}
+{"time":1728941154096,"msg":"Matcher[3]: New Sub from Matcher[1]"}
+{"time":1728941154198,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1728941154200,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C1]"}
+{"time":1728941154300,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1728941154302,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1728941154401,"msg":"Matcher[2]: Received Publication from Matcher[1]"}
+{"time":1728941154401,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C3]"}
+{"time":1728941154504,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1728941154504,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1728941154606,"msg":"Matcher[2]: move client[C1] to pos[350; 500]"}
+{"time":1728941154606,"msg":"Matcher[1]: Migrate client[C1] from matcher[2] for pos[350; 500]"}
+{"time":1728941154607,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1728941154607,"msg":"Matcher[2]: MOVE_SUBS_R message"}
+{"time":1728941154607,"msg":"Matcher[2]: migrating client[C1] to matcher[1]"}
+{"time":1728941154607,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1728941154608,"msg":"Matcher[2] disconnected from Client[C1]. Added to leaving list."}
+{"time":1728941154613,"msg":"Matcher[1]: Client[C1] has joined from pending list"}
+{"time":1728941155609,"msg":"Matcher[1]: move client[C1] to pos[400; 600]"}
+{"time":1728941155609,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1728941155610,"msg":"Matcher[1]: Received Publication from Matcher[2]"}
+{"time":1728941155610,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1728941155710,"msg":"Matcher[1]: Received Publication from Matcher[2]"}
+{"time":1728941155712,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1728941155712,"msg":"Matcher[3]: Received Publication from Matcher[2]"}
+{"time":1729680610930,"msg":"Matcher[1]: VON peer joined successfully"}
+{"time":1729680610930,"msg":"Matcher[1]: listening on 20000"}
+{"time":1729680611051,"msg":"Matcher[2]: VON peer joined successfully"}
+{"time":1729680611051,"msg":"Matcher[2]: listening on 20010"}
+{"time":1729680611054,"msg":"Matcher[3]: VON peer joined successfully"}
+{"time":1729680611054,"msg":"Matcher[3]: listening on 20020"}
+{"time":1729680611218,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1729680611218,"msg":"Matcher[1]: move client[C1] to pos[300; 100]"}
+{"time":1729680611219,"msg":"Matcher[2]: Migrate client[C1] from matcher[1] for pos[300; 100]"}
+{"time":1729680611221,"msg":"Matcher[1]: MOVE_SUBS_R message"}
+{"time":1729680611221,"msg":"Matcher[1]: migrating client[C1] to matcher[2]"}
+{"time":1729680611230,"msg":"Matcher[1] disconnected from Client[C1]. Added to leaving list."}
+{"time":1729680611237,"msg":"Matcher[2]: Client[C1] has joined from pending list"}
+{"time":1729680611439,"msg":"Matcher[2]: Received subscribe message from client[C1] with subscription ID [C1-bJih6]"}
+{"time":1729680611443,"msg":"Matcher[2]: New Sub from Matcher[2]"}
+{"time":1729680611446,"msg":"Matcher[1]: New Sub from Matcher[2]"}
+{"time":1729680611453,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1729680611453,"msg":"Matcher[1]: move client[C2] to pos[200; 200]"}
+{"time":1729680611454,"msg":"Matcher[2]: Migrate client[C2] from matcher[1] for pos[200; 200]"}
+{"time":1729680611455,"msg":"Matcher[1]: MOVE_SUBS_R message"}
+{"time":1729680611455,"msg":"Matcher[1]: migrating client[C2] to matcher[2]"}
+{"time":1729680611460,"msg":"Matcher[1] disconnected from Client[C2]. Added to leaving list."}
+{"time":1729680611470,"msg":"Matcher[2]: Client[C2] has joined from pending list"}
+{"time":1729680611768,"msg":"Matcher[2]: Received subscribe message from client[C2] with subscription ID [C2-c5QE5]"}
+{"time":1729680611769,"msg":"Matcher[2]: New Sub from Matcher[2]"}
+{"time":1729680611784,"msg":"Matcher[1]: a new client has joined GW. Send MOVE request"}
+{"time":1729680611784,"msg":"Matcher[1]: move client[C3] to pos[500; 200]"}
+{"time":1729680612194,"msg":"Matcher[1]: Received subscribe message from client[C3] with subscription ID [C3-F1a8q]"}
+{"time":1729680612194,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1729680612196,"msg":"Matcher[1]: Received subscribe message from client[C3] with subscription ID [C3-EMsFA]"}
+{"time":1729680612196,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1729680612198,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1729680612198,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1729680612198,"msg":"Matcher[3]: New Sub from Matcher[1]"}
+{"time":1729680612198,"msg":"Matcher[3]: New Sub from Matcher[1]"}
+{"time":1729680612298,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1729680612302,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C1]"}
+{"time":1729680612401,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1729680612403,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1729680612504,"msg":"Matcher[2]: Received Publication from Matcher[1]"}
+{"time":1729680612506,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C3]"}
+{"time":1729680612607,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1729680612608,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1729680612709,"msg":"Matcher[2]: move client[C1] to pos[350; 500]"}
+{"time":1729680612710,"msg":"Matcher[1]: Migrate client[C1] from matcher[2] for pos[350; 500]"}
+{"time":1729680612711,"msg":"Matcher[2]: New Sub from Matcher[1]"}
+{"time":1729680612711,"msg":"Matcher[2]: MOVE_SUBS_R message"}
+{"time":1729680612712,"msg":"Matcher[2]: migrating client[C1] to matcher[1]"}
+{"time":1729680612713,"msg":"Matcher[1]: New Sub from Matcher[1]"}
+{"time":1729680612718,"msg":"Matcher[2] disconnected from Client[C1]. Added to leaving list."}
+{"time":1729680612726,"msg":"Matcher[1]: Client[C1] has joined from pending list"}
+{"time":1729680613714,"msg":"Matcher[1]: move client[C1] to pos[400; 600]"}
+{"time":1729680613716,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1729680613719,"msg":"Matcher[1]: Received Publication from Matcher[2]"}
+{"time":1729680613720,"msg":"Matcher[1]: Matched Publication from Matcher[2]from Client[C2]"}
+{"time":1729680613817,"msg":"Matcher[1]: Received Publication from Matcher[2]"}
+{"time":1729680613820,"msg":"Matcher[2]: Received Publication from Matcher[2]"}
+{"time":1729680613820,"msg":"Matcher[3]: Received Publication from Matcher[2]"}
+{"time":1730280598083,"msg":"Matcher[1]: VON peer joined successfully"}
+{"time":1730280598083,"msg":"Matcher[1]: listening on 21000"}

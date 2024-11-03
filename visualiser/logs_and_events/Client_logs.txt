@@ -1,0 +1,102 @@
+{"time":1728941153162,"msg":"Client[C1]: socket connected"}
+{"time":1728941153162,"msg":"Client[C1]: assigned to matcher[1]"}
+{"time":1728941153162,"msg":"Client[C1]: being migrated to Matcher[2]"}
+{"time":1728941153163,"msg":"Client[C1]: disconnected from matcher[2]"}
+{"time":1728941153175,"msg":"Client[C1]: socket connected"}
+{"time":1728941153175,"msg":"Client[C1]: assigned to matcher[2]"}
+{"time":1728941153366,"msg":"Client[C1]: subscribing to channel[channel1] at AoI[300; 100; 100]"}
+{"time":1728941153369,"msg":"Client[C1]: added a subscription:"}
+{"time":1728941153369,"msg":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C1","subID":"C1-gbAEo","channel":"channel1","aoi":{"center":{"x":300,"y":100},"radius":100},"recipients":[],"heartbeat":1728941153368}}
+{"time":1728941153380,"msg":"Client[C2]: socket connected"}
+{"time":1728941153380,"msg":"Client[C2]: assigned to matcher[1]"}
+{"time":1728941153380,"msg":"Client[C2]: being migrated to Matcher[2]"}
+{"time":1728941153381,"msg":"Client[C2]: disconnected from matcher[2]"}
+{"time":1728941153390,"msg":"Client[C2]: socket connected"}
+{"time":1728941153390,"msg":"Client[C2]: assigned to matcher[2]"}
+{"time":1728941153682,"msg":"Client[C2]: subscribing to channel[channel1] at AoI[200; 200; 100]"}
+{"time":1728941153686,"msg":"Client[C2]: added a subscription:"}
+{"time":1728941153686,"msg":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C2","subID":"C2-hWNxR","channel":"channel1","aoi":{"center":{"x":200,"y":200},"radius":100},"recipients":[],"heartbeat":1728941153685}}
+{"time":1728941153693,"msg":"Client[C3]: socket connected"}
+{"time":1728941153693,"msg":"Client[C3]: assigned to matcher[1]"}
+{"time":1728941154093,"msg":"Client[C3]: subscribing to channel[channel1] at AoI[500; 500; 500]"}
+{"time":1728941154093,"msg":"Client[C3]: subscribing to channel[channel2] at AoI[500; 500; 500]"}
+{"time":1728941154097,"msg":"Client[C3]: added a subscription:"}
+{"time":1728941154097,"msg":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-GgP2Z","channel":"channel1","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1728941154094}}
+{"time":1728941154097,"msg":"Client[C3]: added a subscription:"}
+{"time":1728941154097,"msg":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-DkAxF","channel":"channel2","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1728941154095}}
+{"time":1728941154195,"msg":"Client[C1]: publishing to channel[channel1] with payload: hello from C1!"}
+{"time":1728941154200,"msg":"Client[C1]: received publication from Client[C1] with payload: hello from C1!"}
+{"time":1728941154200,"msg":"Client[C3]: received publication from Client[C1] with payload: hello from C1!"}
+{"time":1728941154299,"msg":"Client[C2]: publishing to channel[channel1] with payload: C2 also says hello!"}
+{"time":1728941154302,"msg":"Client[C1]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1728941154302,"msg":"Client[C2]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1728941154303,"msg":"Client[C3]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1728941154400,"msg":"Client[C3]: publishing to channel[channel1] with payload: C3 sending a message far way"}
+{"time":1728941154401,"msg":"Client[C2]: received publication from Client[C3] with payload: C3 sending a message far way"}
+{"time":1728941154402,"msg":"Client[C3]: received publication from Client[C3] with payload: C3 sending a message far way"}
+{"time":1728941154501,"msg":"Client[C2]: publishing to channel[channel2] with payload: C2 publishing on channel2. Only C3 should receive this pub."}
+{"time":1728941154506,"msg":"Client[C3]: received publication from Client[C2] with payload: C2 publishing on channel2. Only C3 should receive this pub."}
+{"time":1728941154607,"msg":"Client[C1]: being migrated to Matcher[1]"}
+{"time":1728941154607,"msg":"Client[C1]: disconnected from matcher[1]"}
+{"time":1728941154616,"msg":"Client[C1]: socket connected"}
+{"time":1728941154617,"msg":"Client[C1]: assigned to matcher[1]"}
+{"time":1728941155606,"msg":"Client[C2]: publishing to channel[channel1] with payload: Hi to C1/C3"}
+{"time":1728941155607,"msg":"Client[C2]: publishing to channel[channel1] with payload: C2/C3 hello"}
+{"time":1728941155610,"msg":"Client[C2]: received publication from Client[C2] with payload: C2/C3 hello"}
+{"time":1728941155610,"msg":"Client[C3]: received publication from Client[C2] with payload: Hi to C1/C3"}
+{"time":1728941155610,"msg":"Client[C3]: received publication from Client[C2] with payload: C2/C3 hello"}
+{"time":1728941155708,"msg":"Client[C2]: publishing to channel[channel1] with payload: global hello"}
+{"time":1728941155711,"msg":"Client[C1]: received publication from Client[C2] with payload: global hello"}
+{"time":1728941155711,"msg":"Client[C3]: received publication from Client[C2] with payload: global hello"}
+{"time":1728941155712,"msg":"Client[C2]: received publication from Client[C2] with payload: global hello"}
+{"time":1729680611225,"msg":"Client[C1]: socket connected"}
+{"time":1729680611226,"msg":"Client[C1]: assigned to matcher[1]"}
+{"time":1729680611226,"msg":"Client[C1]: being migrated to Matcher[2]"}
+{"time":1729680611227,"msg":"Client[C1]: disconnected from matcher[2]"}
+{"time":1729680611241,"msg":"Client[C1]: socket connected"}
+{"time":1729680611241,"msg":"Client[C1]: assigned to matcher[2]"}
+{"time":1729680611430,"msg":"Client[C1]: subscribing to channel[channel1] at AoI[300; 100; 100]"}
+{"time":1729680611446,"msg":"Client[C1]: added a subscription:"}
+{"time":1729680611446,"msg":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C1","subID":"C1-bJih6","channel":"channel1","aoi":{"center":{"x":300,"y":100},"radius":100},"recipients":[],"heartbeat":1729680611440}}
+{"time":1729680611457,"msg":"Client[C2]: socket connected"}
+{"time":1729680611458,"msg":"Client[C2]: assigned to matcher[1]"}
+{"time":1729680611458,"msg":"Client[C2]: being migrated to Matcher[2]"}
+{"time":1729680611458,"msg":"Client[C2]: disconnected from matcher[2]"}
+{"time":1729680611473,"msg":"Client[C2]: socket connected"}
+{"time":1729680611473,"msg":"Client[C2]: assigned to matcher[2]"}
+{"time":1729680611762,"msg":"Client[C2]: subscribing to channel[channel1] at AoI[200; 200; 100]"}
+{"time":1729680611770,"msg":"Client[C2]: added a subscription:"}
+{"time":1729680611770,"msg":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C2","subID":"C2-c5QE5","channel":"channel1","aoi":{"center":{"x":200,"y":200},"radius":100},"recipients":[],"heartbeat":1729680611768}}
+{"time":1729680611787,"msg":"Client[C3]: socket connected"}
+{"time":1729680611787,"msg":"Client[C3]: assigned to matcher[1]"}
+{"time":1729680612189,"msg":"Client[C3]: subscribing to channel[channel1] at AoI[500; 500; 500]"}
+{"time":1729680612191,"msg":"Client[C3]: subscribing to channel[channel2] at AoI[500; 500; 500]"}
+{"time":1729680612199,"msg":"Client[C3]: added a subscription:"}
+{"time":1729680612199,"msg":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-F1a8q","channel":"channel1","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612194}}
+{"time":1729680612199,"msg":"Client[C3]: added a subscription:"}
+{"time":1729680612199,"msg":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-EMsFA","channel":"channel2","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612196}}
+{"time":1729680612295,"msg":"Client[C1]: publishing to channel[channel1] with payload: hello from C1!"}
+{"time":1729680612301,"msg":"Client[C1]: received publication from Client[C1] with payload: hello from C1!"}
+{"time":1729680612303,"msg":"Client[C3]: received publication from Client[C1] with payload: hello from C1!"}
+{"time":1729680612398,"msg":"Client[C2]: publishing to channel[channel1] with payload: C2 also says hello!"}
+{"time":1729680612402,"msg":"Client[C1]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1729680612403,"msg":"Client[C2]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1729680612404,"msg":"Client[C3]: received publication from Client[C2] with payload: C2 also says hello!"}
+{"time":1729680612501,"msg":"Client[C3]: publishing to channel[channel1] with payload: C3 sending a message far way"}
+{"time":1729680612505,"msg":"Client[C2]: received publication from Client[C3] with payload: C3 sending a message far way"}
+{"time":1729680612507,"msg":"Client[C3]: received publication from Client[C3] with payload: C3 sending a message far way"}
+{"time":1729680612605,"msg":"Client[C2]: publishing to channel[channel2] with payload: C2 publishing on channel2. Only C3 should receive this pub."}
+{"time":1729680612609,"msg":"Client[C3]: received publication from Client[C2] with payload: C2 publishing on channel2. Only C3 should receive this pub."}
+{"time":1729680612713,"msg":"Client[C1]: being migrated to Matcher[1]"}
+{"time":1729680612714,"msg":"Client[C1]: disconnected from matcher[1]"}
+{"time":1729680612730,"msg":"Client[C1]: socket connected"}
+{"time":1729680612730,"msg":"Client[C1]: assigned to matcher[1]"}
+{"time":1729680613710,"msg":"Client[C2]: publishing to channel[channel1] with payload: Hi to C1/C3"}
+{"time":1729680613711,"msg":"Client[C2]: publishing to channel[channel1] with payload: C2/C3 hello"}
+{"time":1729680613721,"msg":"Client[C2]: received publication from Client[C2] with payload: C2/C3 hello"}
+{"time":1729680613722,"msg":"Client[C3]: received publication from Client[C2] with payload: Hi to C1/C3"}
+{"time":1729680613724,"msg":"Client[C3]: received publication from Client[C2] with payload: C2/C3 hello"}
+{"time":1729680613814,"msg":"Client[C2]: publishing to channel[channel1] with payload: global hello"}
+{"time":1729680613819,"msg":"Client[C1]: received publication from Client[C2] with payload: global hello"}
+{"time":1729680613819,"msg":"Client[C3]: received publication from Client[C2] with payload: global hello"}
+{"time":1729680613821,"msg":"Client[C2]: received publication from Client[C2] with payload: global hello"}

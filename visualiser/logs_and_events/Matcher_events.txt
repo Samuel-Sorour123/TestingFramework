@@ -1,0 +1,57 @@
+{"time":1728941152991,"event":0,"id":1,"alias":"GW","aoi":{"center":{"x":500,"y":500},"radius":100},"pos":{"x":500,"y":500}}
+{"time":1728941153104,"event":0,"id":2,"alias":"M2","aoi":{"center":{"x":167,"y":500},"radius":100},"pos":{"x":167,"y":500}}
+{"time":1728941153109,"event":0,"id":3,"alias":"M3","aoi":{"center":{"x":833,"y":500},"radius":100},"pos":{"x":833,"y":500}}
+{"time":1728941153153,"event":2,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153154,"event":3,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153171,"event":2,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1728941153267,"event":4,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153369,"event":5,"id":2,"alias":"M2","sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C1","subID":"C1-gbAEo","channel":"channel1","aoi":{"center":{"x":300,"y":100},"radius":100},"recipients":[],"heartbeat":1728941153368}}
+{"time":1728941153374,"event":2,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153374,"event":3,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153388,"event":2,"id":2,"alias":"M2","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1728941153482,"event":4,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153685,"event":5,"id":2,"alias":"M2","sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C2","subID":"C2-hWNxR","channel":"channel1","aoi":{"center":{"x":200,"y":200},"radius":100},"recipients":[],"heartbeat":1728941153685}}
+{"time":1728941153690,"event":2,"id":1,"alias":"GW","client":{"id":"C3","pos":{"x":500,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941153690,"event":3,"id":1,"alias":"GW","client":{"id":"C3","pos":{"x":500,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941154095,"event":5,"id":1,"alias":"GW","sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-GgP2Z","channel":"channel1","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1728941154094}}
+{"time":1728941154096,"event":5,"id":1,"alias":"GW","sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-DkAxF","channel":"channel2","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1728941154095}}
+{"time":1728941154199,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C1","pubID":"C1-1","aoi":{"center":{"x":300,"y":100},"radius":10},"payload":"hello from C1!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1728941154301,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"payload":"C2 also says hello!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1728941154401,"event":8,"id":1,"alias":"GW","pub":{"matcherID":1,"clientID":"C3","pubID":"C3-1","aoi":{"center":{"x":250,"y":250},"radius":50},"payload":"C3 sending a message far way","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1728941154504,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-2","aoi":{"center":{"x":200,"y":200},"radius":5},"payload":"C2 publishing on channel2. Only C3 should receive this pub.","channel":"channel2","recipients":[2],"chain":[2]}}
+{"time":1728941154606,"event":3,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1728941154613,"event":2,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941154709,"event":4,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1728941155609,"event":3,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":400,"y":600},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1728941155609,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-3","aoi":{"center":{"x":400,"y":600},"radius":10},"payload":"Hi to C1/C3","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1728941155610,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-4","aoi":{"center":{"x":200,"y":200},"radius":10},"payload":"C2/C3 hello","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1728941155710,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"payload":"global hello","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1729680610930,"event":0,"id":1,"alias":"GW","aoi":{"center":{"x":500,"y":500},"radius":100},"pos":{"x":500,"y":500}}
+{"time":1729680611051,"event":0,"id":2,"alias":"M2","aoi":{"center":{"x":167,"y":500},"radius":100},"pos":{"x":167,"y":500}}
+{"time":1729680611054,"event":0,"id":3,"alias":"M3","aoi":{"center":{"x":833,"y":500},"radius":100},"pos":{"x":833,"y":500}}
+{"time":1729680611217,"event":2,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611218,"event":3,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611237,"event":2,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1729680611330,"event":4,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":300,"y":100},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611443,"event":5,"id":2,"alias":"M2","sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C1","subID":"C1-bJih6","channel":"channel1","aoi":{"center":{"x":300,"y":100},"radius":100},"recipients":[],"heartbeat":1729680611440}}
+{"time":1729680611453,"event":2,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611454,"event":3,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611470,"event":2,"id":2,"alias":"M2","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1729680611560,"event":4,"id":1,"alias":"GW","client":{"id":"C2","pos":{"x":200,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611769,"event":5,"id":2,"alias":"M2","sub":{"hostID":2,"hostPos":{"x":167,"y":500},"clientID":"C2","subID":"C2-c5QE5","channel":"channel1","aoi":{"center":{"x":200,"y":200},"radius":100},"recipients":[],"heartbeat":1729680611768}}
+{"time":1729680611784,"event":2,"id":1,"alias":"GW","client":{"id":"C3","pos":{"x":500,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680611784,"event":3,"id":1,"alias":"GW","client":{"id":"C3","pos":{"x":500,"y":200},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680612195,"event":5,"id":1,"alias":"GW","sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-F1a8q","channel":"channel1","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612194}}
+{"time":1729680612196,"event":5,"id":1,"alias":"GW","sub":{"hostID":1,"hostPos":{"x":500,"y":500},"clientID":"C3","subID":"C3-EMsFA","channel":"channel2","aoi":{"center":{"x":500,"y":500},"radius":500},"recipients":[],"heartbeat":1729680612196}}
+{"time":1729680612300,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C1","pubID":"C1-1","aoi":{"center":{"x":300,"y":100},"radius":10},"payload":"hello from C1!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612402,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-1","aoi":{"center":{"x":200,"y":200},"radius":100},"payload":"C2 also says hello!","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680612503,"event":8,"id":1,"alias":"GW","pub":{"matcherID":1,"clientID":"C3","pubID":"C3-1","aoi":{"center":{"x":250,"y":250},"radius":50},"payload":"C3 sending a message far way","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1729680612607,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-2","aoi":{"center":{"x":200,"y":200},"radius":5},"payload":"C2 publishing on channel2. Only C3 should receive this pub.","channel":"channel2","recipients":[2],"chain":[2]}}
+{"time":1729680612709,"event":3,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1729680612726,"event":2,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680612819,"event":4,"id":2,"alias":"M2","client":{"id":"C1","pos":{"x":350,"y":500},"matcherID":2,"matcherPos":{"x":167,"y":500}}}
+{"time":1729680613714,"event":3,"id":1,"alias":"GW","client":{"id":"C1","pos":{"x":400,"y":600},"matcherID":1,"matcherPos":{"x":500,"y":500}}}
+{"time":1729680613716,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-3","aoi":{"center":{"x":400,"y":600},"radius":10},"payload":"Hi to C1/C3","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1729680613718,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-4","aoi":{"center":{"x":200,"y":200},"radius":10},"payload":"C2/C3 hello","channel":"channel1","recipients":[2],"chain":[2]}}
+{"time":1729680613816,"event":8,"id":2,"alias":"M2","pub":{"matcherID":2,"clientID":"C2","pubID":"C2-5","aoi":{"center":{"x":500,"y":500},"radius":1000},"payload":"global hello","channel":"channel1","recipients":[],"chain":[]}}
+{"time":1730280598083,"event":0,"id":1,"alias":"GW","aoi":{"center":{"x":130,"y":40},"radius":92},"pos":{"x":130,"y":40}}
